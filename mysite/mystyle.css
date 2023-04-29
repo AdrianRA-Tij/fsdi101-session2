@@ -13,8 +13,13 @@ p{
 
 /*header*/
 .site-header{
-    background-color: rgb(45, 45, 45);
-    height: 300px;
+    content: '';
+    background-image: url(./image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-color: rgb(45, 45, 45);
+    height: 300px;*/
 }
 .main-bar h1{
     color:white;
@@ -37,7 +42,24 @@ p{
     text-align: center;
 }
 
+
 /*footer*/
 footer{
     background-color: black;
 }
+
+.img-blog {
+   margin-left: 160px;
+   margin-right: auto;
+   margin-top: 20px;
+   /*opacity: 0.35;*/
+   border-radius: 50%;
+}
+/*
+.blog-entry{
+    max-width: 300px;
+   max-height: 100px;
+   opacity: 0.35;
+   border-radius: 50%;
+
+}*/
