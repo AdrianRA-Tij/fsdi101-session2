@@ -53,7 +53,14 @@ footer{
    margin-right: auto;
    margin-top: 20px;
    /*opacity: 0.35;*/
-   border-radius: 50%;
+   }
+
+.h2 {
+    font-size: 80px;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    margin-top: -100px;
 }
 /*
 .blog-entry{
